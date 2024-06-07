@@ -60,9 +60,9 @@ Prerequisites
 Steps
 -----
 1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-repo/Project.git
-   ```
+   
+   [git clone https://github.com/shuja609/UniversityManagementSystem.git](https://github.com/shuja609/UniversityManagementSystem.git)
+   
 
 2. **Set Up Database**:
    - Install MySQL and create a database named `AcademiaStream`.
@@ -235,8 +235,9 @@ Contact
 =======
 For any queries or support, please contact:
 - Name: Mohammad Shuja Uddin
+- LinkedIn: [Mohammad Shuja Uddin](https://www.linkedin.com/in/mohammad-shuja-uddin-a95118230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - Email: shujaqurashi2172@gmail.com
-- GitHub: Shuja Qurashi
+- GitHub: [Shuja Qurashi](https://github.com/shuja609)
 
 ---
 
