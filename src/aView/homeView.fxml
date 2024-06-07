@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="1020.0" style="-fx-background-color: #20B2AA;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aController.homeview">
+    <children>
+        <VBox layoutY="-2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="80.0" style="-fx-background-color: #452153;">
+            <children>
+                <HBox alignment="CENTER" onMouseClicked="#dash" prefHeight="74.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" smooth="false">
+                            <image>
+                                <Image url="@../img/dashboard%20%5B%23671%5D.png" />
+                            </image>
+                            <effect>
+                                <DropShadow />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" onMouseClicked="#homei" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #48D1CC;">
+                    <children>
+                        <ImageView fitHeight="18.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/home%20%5B%231391%5D.png" />
+                            </image>
+                        </ImageView>
+                    </children>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" />
+               </effect>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="84.0" onMouseClicked="#users" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Stats.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" contrast="1.0" hue="0.21" saturation="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="204.0" onMouseClicked="#Courses" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+                    <children>
+                        <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/Blunicons/PNG/Notepad.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="264.0" onMouseClicked="#dcourse" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Read.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children></HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="384.0" onMouseClicked="#duser" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Male.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children></HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="324.0" onMouseClicked="#setting" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;">
+               <children>
+                  <ImageView fitHeight="20.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/Blunicons/PNG/Settings.png" />
+                     </image>
+                     <effect>
+                        <ColorAdjust brightness="1.0" />
+                     </effect>
+                  </ImageView>
+               </children></HBox>
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="144.0" prefHeight="60.0" prefWidth="80.0" style="-fx-background-color: #2D2D37;" />
+                <HBox alignment="CENTER" layoutX="10.0" layoutY="444.0" onMouseClicked="#logout" prefHeight="95.0" prefWidth="80.0" style="-fx-background-color: #DD5043;">
+                    <children>
+                        <ImageView fitHeight="35.0" fitWidth="30.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../img/PNG/@1x/Filled/Rightarrowtag.png" />
+                            </image>
+                            <effect>
+                                <ColorAdjust brightness="1.0" />
+                            </effect>
+                        </ImageView>
+                    </children>
+               <effect>
+                  <DropShadow blurType="TWO_PASS_BOX" />
+               </effect>
+                </HBox>
+            </children>
+        </VBox>
+        <Label contentDisplay="CENTER" layoutX="906.0" layoutY="24.0" opacity="0.94" text="Admin" textAlignment="CENTER" textFill="#2d2d37">
+            <font>
+                <Font name="Leelawadee UI Bold" size="22.0" />
+            </font>
+         <effect>
+            <Glow />
+         </effect>
+        </Label>
+        <HBox alignment="CENTER_LEFT" layoutX="857.0" layoutY="61.0" prefHeight="33.0" prefWidth="149.0" style="-fx-background-color: #48D1CC;">
+            <children>
+                <HBox alignment="CENTER" prefHeight="60.0" prefWidth="80.0">
+                    <children>
+                        <HBox alignment="CENTER" prefHeight="60.0" prefWidth="80.0">
+                            <children>
+                                <HBox alignment="CENTER" prefHeight="46.0" prefWidth="71.0" style="-fx-background-color: #DD5043;">
+                                    <children>
+                                        <ImageView fitHeight="32.0" fitWidth="25.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../img/PNG/@1x/Filled/Rightarrowtag.png" />
+                                            </image>
+                                            <effect>
+                                                <ColorAdjust brightness="1.0" />
+                                            </effect>
+                                        </ImageView>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </HBox>
+                    </children>
+                </HBox>
+                <Label id="fd_logout" onMousePressed="#logout" prefHeight="33.0" prefWidth="150.0" text="Logout">
+                    <font>
+                        <Font size="20.0" />
+                    </font>
+                    <padding>
+                        <Insets left="12.0" />
+                    </padding>
+                </Label>
+            </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" />
+         </effect>
+        </HBox>
+      <Label fx:id="namep" layoutX="264.0" layoutY="144.0" text="Label" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="103.0" text="Welcome," textFill="#2d2d37">
+         <font>
+            <Font name="Gill Sans MT" size="34.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="214.0" fitWidth="238.0" layoutX="392.0" layoutY="-40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/hi.png" />
+         </image>
+         <effect>
+            <Blend />
+         </effect>
+      </ImageView>
+      <Text fill="WHITE" layoutX="172.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dear Administrator,Welcome to the Admin Home Page of AcademiaStream . Here, you have access to powerful tools and functionalities to manage and oversee various aspects of our organization's operations. As an administrator, you play a crucial role in ensuring smooth operations, maintaining security, and driving strategic decisions.From managing user accounts and permissions to overseeing financial transactions and operational processes, your responsibilities are integral to our organization's success. We trust in your expertise and dedication to uphold our values and goals.Feel free to explore the dashboard and utilize the tools available to streamline processes and enhance efficiency. Should you have any questions or require assistance, our support team is always here to help.Thank you for your commitment and contributions to AcademiaStream ." wrappingWidth="541.13671875">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="500.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Together, we strive for excellence and continued growth.Best regards,AcademiaStream Team">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Best regards,">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AcademiaStream Team">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="172.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome, Admin!">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      
+    </children>
+</AnchorPane>
